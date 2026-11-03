@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11110f">
+  <title>Menu | Ember & Oak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="menu.css">
+  <script src="menu.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A little fire. A lot of flavour. <span>·</span> Lagos, Nigeria</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ember and Oak home">
+      <span class="brand-mark">E<span>&</span>O</span>
+      <span class="brand-name">EMBER <i>&</i> OAK<small>DINING, REIMAGINED</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our story</a>
+      <a class="active" href="menu.html">Menu</a>
+      <a href="index.html#reservation">Reservations</a>
+      <a href="cart.html">Cart</a><a href="admin.html">Admin</a>
+    </nav>
+    <a class="header-cta" href="index.html#reservation">Book a table <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> FROM OUR KITCHEN</p>
+        <h1>Good food.<br><em>Beautifully</em> done.</h1>
+        <p class="hero-description">Rooted in local flavour, shaped by fire, and made for lingering a little longer.</p>
+        <a class="text-link" href="#full-menu">Explore the menu <span>↓</span></a>
+      </div>
+      <div class="hero-image" role="img" aria-label="A beautifully styled restaurant meal">
+        <div class="image-label"><span>01 / 07</span><b>Made with intention</b></div>
+      </div>
+      <div class="hero-note"><span class="note-line"></span><span>SEASONAL INGREDIENTS<br>TIMELESS HOSPITALITY</span></div>
+    </section>
+
+    <section class="menu-section" id="full-menu">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> THE GOOD STUFF</p>
+          <h2>Our <em>menu</em></h2>
+        </div>
+        <p class="section-intro">From quick bites to slow evenings, find your next favourite.</p>
+      </div>
+      <div class="menu-tools">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="menu-search" type="search" placeholder="Search dishes or ingredients..." autocomplete="off" aria-label="Search menu">
+          <kbd>⌘ K</kbd>
+        </label>
+        <div class="sort-wrap">
+          <label for="menu-sort">Sort by</label>
+          <select id="menu-sort">
+            <option value="recommended">Recommended</option>
+            <option value="price-low">Price: low to high</option>
+            <option value="price-high">Price: high to low</option>
+            <option value="name">Name: A–Z</option>
+          </select>
+        </div>
+      </div>
+      <div class="category-row" id="category-filters" aria-label="Filter menu by category">
+        <button class="category-chip active" data-category="all">All items <span>42</span></button>
+        <button class="category-chip" data-category="starters">Starters</button>
+        <button class="category-chip" data-category="mains">Mains</button>
+        <button class="category-chip" data-category="seafood">Seafood</button>
+        <button class="category-chip" data-category="vegetarian">Vegetarian</button>
+        <button class="category-chip" data-category="sides">Sides</button>
+        <button class="category-chip" data-category="desserts">Desserts</button>
+        <button class="category-chip" data-category="drinks">Drinks</button>
+      </div>
+      <div class="result-line"><p id="result-count">Loading our menu...</p><button id="clear-filters" class="clear-button" hidden>Clear filters ×</button></div>
+      <div id="menu-grid" class="menu-grid" aria-live="polite">
+        <div class="loading-card">Preparing something delicious…</div>
+      </div>
+      <div id="empty-state" class="empty-state" hidden>
+        <span>✳</span><h3>No dishes found</h3><p>Try another search or choose a different category.</p>
+        <button id="reset-menu" class="gold-button">Show all dishes</button>
+      </div>
+      <div class="menu-footnote"><span>✦</span> Please let our team know about allergies or dietary requirements before ordering.</div>
+    </section>
+
+    <section class="closing-banner">
+      <div><p class="eyebrow"><span></span> YOUR TABLE IS WAITING</p><h2>Make an evening<br><em>of it.</em></h2></div>
+      <a href="index.html#reservation" class="gold-button">Reserve your table <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">E<span>&</span>O</span><span class="brand-name">EMBER <i>&</i> OAK<small>DINING, REIMAGINED</small></span></a>
+    <p>Good company. Great food. Always.</p>
+    <span>© 2026 Ember & Oak</span>
+  </footer>
+</body>
+</html>

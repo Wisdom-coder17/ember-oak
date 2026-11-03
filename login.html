@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Ember & Oak</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="auth-body">
+    <header class="site-header"><a class="brand" href="index.html"><span
+                class="brand-mark">E<span>&</span>O</span><span>EMBER <i>&</i> OAK</span></a><a class="text-link"
+            href="index.html">← Back to home</a></header>
+    <main class="auth-layout">
+        <div class="auth-visual login-visual">
+            <div>
+                <p class="eyebrow">WELCOME BACK</p>
+                <h1>Your table.<br><em>Your time.</em></h1>
+                <p>Come back for the flavours you love and the moments still to come.</p>
+            </div><span class="visual-caption">YOUR PLACE IS HERE.</span>
+        </div>
+        <section class="auth-panel">
+            <div class="auth-form-wrap">
+                <p class="eyebrow">GOOD TO SEE YOU</p>
+                <h2>Sign in.</h2>
+                <p class="muted">Enter your details to access your profile.</p>
+                <form id="loginForm" class="stack-form"><label>Email address<input name="email" type="email"
+                            autocomplete="email" required placeholder="you@example.com"></label><label>Password<div
+                            class="password-wrap"><input name="password" type="password" autocomplete="current-password"
+                                required placeholder="Your password"><button type="button" class="password-toggle"
+                                aria-label="Show password">Show</button></div></label><button class="button button-wide"
+                        type="submit">Sign in <span>↗</span></button>
+                    <p class="form-message" aria-live="polite"></p>
+                    <p class="auth-switch">New to Ember & Oak? <a href="register.html">Create an account</a></p><small
+                        class="muted">Use an account registered in this browser for this front-end demo.</small>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

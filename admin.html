@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Admin | Ember & Oak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+    <script src="admin.js" defer></script>
+</head>
+
+<body>
+    <div class="announcement">EMBER & OAK · MANAGEMENT</div>
+    <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">E<span>&</span>O</span><span
+                class="brand-name">EMBER <i>&</i> OAK<small>ADMIN PANEL</small></span></a>
+        <nav class="main-nav"><a href="index.html">Website</a><a href="menu.html">Menu</a><a href="cart.html">Cart</a><a
+                class="active" href="admin.html">Admin</a></nav><a class="header-cta" href="menu.html">View customer
+            menu ↗</a>
+    </header>
+    <main class="page-shell">
+        <p class="page-kicker">RESTAURANT MANAGEMENT</p>
+        <h1 class="page-title">Menu <em>admin.</em></h1>
+        <p class="muted">Add dishes, update prices, or remove items from the menu. Changes are saved in this browser
+            only.</p>
+        <div class="admin-grid">
+            <section class="admin-card">
+                <h2 id="form-heading">Add a menu item</h2>
+                <form class="admin-form" id="admin-form"><input type="hidden" id="edit-id"><label>Dish name<input
+                            id="dish-name" required maxlength="70"
+                            placeholder="e.g. Grilled chicken"></label><label>Category<select id="dish-category"
+                            required>
+                            <option value="starters">Starters</option>
+                            <option value="mains">Mains</option>
+                            <option value="seafood">Seafood</option>
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="sides">Sides</option>
+                            <option value="desserts">Desserts</option>
+                            <option value="drinks">Drinks</option>
+                        </select></label><label>Description<textarea id="dish-description" required maxlength="220"
+                            placeholder="A short description of the dish"></textarea></label><label>Price (₦)<input
+                            id="dish-price" type="number" min="1" step="100" required
+                            placeholder="8500"></label><label>Image URL<input id="dish-image" type="url"
+                            placeholder="https://..."></label><label class="check-line"><span><input id="dish-featured"
+                                type="checkbox"> Mark as house favourite</span></label>
+                    <div class="detail-actions"><button class="action-btn" type="submit" id="save-dish">Save menu
+                            item</button><button class="action-btn secondary" type="button"
+                            id="cancel-edit">Clear</button></div>
+                    <p class="notice" id="admin-notice" aria-live="polite"></p>
+                </form>
+            </section>
+            <section class="admin-card">
+                <h2>Current menu <span id="item-total" class="muted"></span></h2>
+                <div id="admin-list" class="admin-list">
+                    <p class="muted">Loading items…</p>
+                </div>
+                <div class="detail-actions"><button class="action-btn secondary" id="restore-menu" type="button">Restore
+                        original menu</button></div>
+                <p class="muted" style="font-size:11px;margin-top:14px">Restore removes browser-saved menu edits and
+                    reloads the original menu.json.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer"><span>© 2026 Ember & Oak</span><span>Admin demo — local browser storage only</span>
+    </footer>
+</body>
+
+</html>

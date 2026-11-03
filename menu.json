@@ -1,0 +1,674 @@
+{
+  "restaurant": "Ember & Oak",
+  "currency": "NGN",
+  "categories": [
+    {
+      "id": "all",
+      "name": "All items"
+    },
+    {
+      "id": "starters",
+      "name": "Starters"
+    },
+    {
+      "id": "mains",
+      "name": "Mains"
+    },
+    {
+      "id": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "vegetarian",
+      "name": "Vegetarian"
+    },
+    {
+      "id": "sides",
+      "name": "Sides"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks"
+    }
+  ],
+  "items": [
+    {
+      "id": "EO001",
+      "name": "Smoky Pepper Soup",
+      "category": "starters",
+      "description": "Goat meat, warming spices and fresh herbs.",
+      "price": 6500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=900&q=80",
+      "alt": "Smoky Pepper Soup",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "spicy",
+        "signature"
+      ]
+    },
+    {
+      "id": "EO002",
+      "name": "Crispy Chicken Wings",
+      "category": "starters",
+      "description": "Golden wings tossed in our house pepper glaze.",
+      "price": 7800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
+      "alt": "Crispy Chicken Wings",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "spicy"
+      ]
+    },
+    {
+      "id": "EO003",
+      "name": "Grilled Suya Skewers",
+      "category": "starters",
+      "description": "Char-grilled beef with yaji spice and onions.",
+      "price": 7200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+      "alt": "Grilled Suya Skewers",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "grilled"
+      ]
+    },
+    {
+      "id": "EO004",
+      "name": "Prawn Tempura",
+      "category": "starters",
+      "description": "Light, crisp prawns with citrus chilli dip.",
+      "price": 9500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=900&q=80",
+      "alt": "Prawn Tempura",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "seafood"
+      ]
+    },
+    {
+      "id": "EO005",
+      "name": "Plantain Bites",
+      "category": "starters",
+      "description": "Sweet ripe plantain with smoky tomato salsa.",
+      "price": 4200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
+      "alt": "Plantain Bites",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO006",
+      "name": "Creamy Mushroom Soup",
+      "category": "starters",
+      "description": "Silky mushrooms, thyme and toasted sourdough.",
+      "price": 5800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+      "alt": "Creamy Mushroom Soup",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO007",
+      "name": "Peppered Gizzard",
+      "category": "starters",
+      "description": "Tender gizzard sautéed with peppers and onions.",
+      "price": 6200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=900&q=80",
+      "alt": "Peppered Gizzard",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "spicy"
+      ]
+    },
+    {
+      "id": "EO008",
+      "name": "Garden Bruschetta",
+      "category": "starters",
+      "description": "Toasted bread, tomatoes, basil and olive oil.",
+      "price": 4900,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
+      "alt": "Garden Bruschetta",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO009",
+      "name": "Ember Jollof Rice",
+      "category": "mains",
+      "description": "Smoky party-style jollof with our signature seasoning.",
+      "price": 8500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+      "alt": "Ember Jollof Rice",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "signature"
+      ]
+    },
+    {
+      "id": "EO010",
+      "name": "Grilled Chicken Supreme",
+      "category": "mains",
+      "description": "Herb-marinated chicken with rich pan jus.",
+      "price": 12500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80",
+      "alt": "Grilled Chicken Supreme",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "grilled"
+      ]
+    },
+    {
+      "id": "EO011",
+      "name": "Beef Short Rib",
+      "category": "mains",
+      "description": "Slow-braised beef with peppercorn sauce.",
+      "price": 18500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80",
+      "alt": "Beef Short Rib",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "chef's pick"
+      ]
+    },
+    {
+      "id": "EO012",
+      "name": "Ofada Rice & Ayamase",
+      "category": "mains",
+      "description": "Local rice served with rich green pepper sauce.",
+      "price": 9800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+      "alt": "Ofada Rice & Ayamase",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "local",
+        "spicy"
+      ]
+    },
+    {
+      "id": "EO013",
+      "name": "Chicken Alfredo Pasta",
+      "category": "mains",
+      "description": "Creamy parmesan sauce, chicken and fettuccine.",
+      "price": 11500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80",
+      "alt": "Chicken Alfredo Pasta",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "pasta"
+      ]
+    },
+    {
+      "id": "EO014",
+      "name": "Spaghetti Bolognese",
+      "category": "mains",
+      "description": "Slow-cooked beef ragù with parmesan.",
+      "price": 10800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80",
+      "alt": "Spaghetti Bolognese",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "pasta"
+      ]
+    },
+    {
+      "id": "EO015",
+      "name": "Beef Burger Deluxe",
+      "category": "mains",
+      "description": "Juicy beef patty, cheddar, caramelised onions and fries.",
+      "price": 12000,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+      "alt": "Beef Burger Deluxe",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "id": "EO016",
+      "name": "Grilled Lamb Chops",
+      "category": "mains",
+      "description": "Rosemary lamb chops with roasted vegetables.",
+      "price": 21000,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80",
+      "alt": "Grilled Lamb Chops",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "grilled"
+      ]
+    },
+    {
+      "id": "EO017",
+      "name": "Coconut Curry Chicken",
+      "category": "mains",
+      "description": "Tender chicken in a fragrant coconut curry.",
+      "price": 13200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80",
+      "alt": "Coconut Curry Chicken",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "spicy"
+      ]
+    },
+    {
+      "id": "EO018",
+      "name": "Pepper Steak",
+      "category": "mains",
+      "description": "Sliced beef with black pepper sauce and jasmine rice.",
+      "price": 15800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+      "alt": "Pepper Steak",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "spicy"
+      ]
+    },
+    {
+      "id": "EO019",
+      "name": "Chargrilled Tiger Prawns",
+      "category": "seafood",
+      "description": "Tiger prawns with garlic butter and fresh lemon.",
+      "price": 19500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=80",
+      "alt": "Chargrilled Tiger Prawns",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "grilled"
+      ]
+    },
+    {
+      "id": "EO020",
+      "name": "Crispy Fish & Chips",
+      "category": "seafood",
+      "description": "Golden fish fillet, seasoned fries and tartar sauce.",
+      "price": 13500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=80",
+      "alt": "Crispy Fish & Chips",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "id": "EO021",
+      "name": "Pan-Seared Salmon",
+      "category": "seafood",
+      "description": "Salmon with lemon herb butter and seasonal greens.",
+      "price": 22000,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=900&q=80",
+      "alt": "Pan-Seared Salmon",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "chef's pick"
+      ]
+    },
+    {
+      "id": "EO022",
+      "name": "Seafood Okra",
+      "category": "seafood",
+      "description": "Fresh seafood simmered in rich, traditional okra soup.",
+      "price": 14500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=80",
+      "alt": "Seafood Okra",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "id": "EO023",
+      "name": "Peppered Catfish",
+      "category": "seafood",
+      "description": "Charcoal-grilled catfish in a bold pepper marinade.",
+      "price": 15500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=80",
+      "alt": "Peppered Catfish",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "spicy",
+        "grilled"
+      ]
+    },
+    {
+      "id": "EO024",
+      "name": "Creamy Seafood Pasta",
+      "category": "seafood",
+      "description": "Prawns and fish in a creamy garlic sauce.",
+      "price": 16800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=900&q=80",
+      "alt": "Creamy Seafood Pasta",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "pasta"
+      ]
+    },
+    {
+      "id": "EO025",
+      "name": "Roasted Vegetable Bowl",
+      "category": "vegetarian",
+      "description": "Seasonal roasted vegetables, grains and tahini dressing.",
+      "price": 8500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "alt": "Roasted Vegetable Bowl",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "EO026",
+      "name": "Aubergine Stew",
+      "category": "vegetarian",
+      "description": "Slow-cooked aubergine, tomatoes and warming spices.",
+      "price": 7900,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=80",
+      "alt": "Aubergine Stew",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegan",
+        "spicy"
+      ]
+    },
+    {
+      "id": "EO027",
+      "name": "Vegetable Stir-Fry",
+      "category": "vegetarian",
+      "description": "Crisp vegetables tossed in ginger soy glaze.",
+      "price": 8200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "alt": "Vegetable Stir-Fry",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "EO028",
+      "name": "Mushroom Risotto",
+      "category": "vegetarian",
+      "description": "Creamy arborio rice, mushrooms and parmesan.",
+      "price": 11200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "alt": "Mushroom Risotto",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO029",
+      "name": "Grilled Corn Ribs",
+      "category": "sides",
+      "description": "Sweet corn ribs with smoky paprika butter.",
+      "price": 3800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80",
+      "alt": "Grilled Corn Ribs",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO030",
+      "name": "Truffle Parmesan Fries",
+      "category": "sides",
+      "description": "Crisp fries finished with parmesan and herbs.",
+      "price": 4500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "alt": "Truffle Parmesan Fries",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "id": "EO031",
+      "name": "Garlic Butter Potatoes",
+      "category": "sides",
+      "description": "Baby potatoes tossed with garlic and parsley.",
+      "price": 4200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "alt": "Garlic Butter Potatoes",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO032",
+      "name": "Steamed Jasmine Rice",
+      "category": "sides",
+      "description": "Fluffy fragrant rice, simply prepared.",
+      "price": 3000,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80",
+      "alt": "Steamed Jasmine Rice",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO033",
+      "name": "Pounded Yam",
+      "category": "sides",
+      "description": "Smooth, freshly prepared pounded yam.",
+      "price": 3500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "alt": "Pounded Yam",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "id": "EO034",
+      "name": "Buttered Seasonal Vegetables",
+      "category": "sides",
+      "description": "Market vegetables with a light herb butter.",
+      "price": 3900,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80",
+      "alt": "Buttered Seasonal Vegetables",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO035",
+      "name": "Chocolate Fondant",
+      "category": "desserts",
+      "description": "Warm chocolate cake with a soft centre.",
+      "price": 6800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80",
+      "alt": "Chocolate Fondant",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "signature"
+      ]
+    },
+    {
+      "id": "EO036",
+      "name": "Vanilla Bean Cheesecake",
+      "category": "desserts",
+      "description": "Creamy cheesecake with a buttery biscuit base.",
+      "price": 6200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "alt": "Vanilla Bean Cheesecake",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "id": "EO037",
+      "name": "Caramel Bread Pudding",
+      "category": "desserts",
+      "description": "Baked bread pudding with warm caramel sauce.",
+      "price": 5400,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80",
+      "alt": "Caramel Bread Pudding",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "classic"
+      ]
+    },
+    {
+      "id": "EO038",
+      "name": "Coconut Milk Panna Cotta",
+      "category": "desserts",
+      "description": "Silky coconut panna cotta with mango coulis.",
+      "price": 5900,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80",
+      "alt": "Coconut Milk Panna Cotta",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "EO039",
+      "name": "Zobo Spritz",
+      "category": "drinks",
+      "description": "Chilled hibiscus, citrus and sparkling water.",
+      "price": 3200,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "alt": "Zobo Spritz",
+      "available": true,
+      "featured": true,
+      "tags": [
+        "refreshing"
+      ]
+    },
+    {
+      "id": "EO040",
+      "name": "Fresh Passionfruit Cooler",
+      "category": "drinks",
+      "description": "Passionfruit, lime and mint over ice.",
+      "price": 3500,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdadb1c8a7e8?auto=format&fit=crop&w=900&q=80",
+      "alt": "Fresh Passionfruit Cooler",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "refreshing"
+      ]
+    },
+    {
+      "id": "EO041",
+      "name": "Classic Chapman",
+      "category": "drinks",
+      "description": "A house mix of citrus, bitters and sparkling soda.",
+      "price": 3800,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80",
+      "alt": "Classic Chapman",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "classic"
+      ]
+    },
+    {
+      "id": "EO042",
+      "name": "Ginger Pineapple Juice",
+      "category": "drinks",
+      "description": "Fresh pineapple blended with a bright ginger kick.",
+      "price": 3300,
+      "currency": "NGN",
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "alt": "Ginger Pineapple Juice",
+      "available": true,
+      "featured": false,
+      "tags": [
+        "fresh"
+      ]
+    }
+  ]
+}

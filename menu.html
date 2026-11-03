@@ -66,25 +66,15 @@
           </select>
         </div>
       </div>
-      <div class="category-row" id="category-filters" aria-label="Filter menu by category">
-        <button class="category-chip active" data-category="all">All items <span>42</span></button>
-        <button class="category-chip" data-category="starters">Starters</button>
-        <button class="category-chip" data-category="mains">Mains</button>
-        <button class="category-chip" data-category="seafood">Seafood</button>
-        <button class="category-chip" data-category="vegetarian">Vegetarian</button>
-        <button class="category-chip" data-category="sides">Sides</button>
-        <button class="category-chip" data-category="desserts">Desserts</button>
-        <button class="category-chip" data-category="drinks">Drinks</button>
-      </div>
-      <div class="result-line"><p id="result-count">Loading our menu...</p><button id="clear-filters" class="clear-button" hidden>Clear filters ×</button></div>
-      <div id="menu-grid" class="menu-grid" aria-live="polite">
+      <div class="menu-layout"><aside class="category-sidebar" aria-label="Menu categories"><p class="sidebar-label">BROWSE BY</p><div class="category-row" id="category-filters" aria-label="Filter menu by category">
+<button class="category-chip active" data-category="all">All items <span>42</span></button><button class="category-chip" data-category="starters">Starters</button><button class="category-chip" data-category="mains">Mains</button><button class="category-chip" data-category="seafood">Seafood</button><button class="category-chip" data-category="vegetarian">Vegetarian</button><button class="category-chip" data-category="sides">Sides</button><button class="category-chip" data-category="desserts">Desserts</button><button class="category-chip" data-category="drinks">Drinks</button></div></aside><div class="menu-results"><div class="result-line"><p id="result-count">Loading our menu...</p><button id="clear-filters" class="clear-button" hidden>Clear filters ×</button></div><div id="menu-grid" class="menu-grid" aria-live="polite">
         <div class="loading-card">Preparing something delicious…</div>
       </div>
-      <div id="empty-state" class="empty-state" hidden>
+      </div><div id="empty-state" class="empty-state" hidden>
         <span>✳</span><h3>No dishes found</h3><p>Try another search or choose a different category.</p>
         <button id="reset-menu" class="gold-button">Show all dishes</button>
       </div>
-      <div class="menu-footnote"><span>✦</span> Please let our team know about allergies or dietary requirements before ordering.</div>
+      </div></div><div class="menu-footnote"><span>✦</span> Please let our team know about allergies or dietary requirements before ordering.</div>
     </section>
 
     <section class="closing-banner">
